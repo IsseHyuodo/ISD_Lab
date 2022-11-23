@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CLMS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">Loading..</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string-array name="Type">
+        <item>Title</item>
+        <item>Author</item>
+        <item>Publishers</item>
+        <item>Subject</item>
+        <item>ISBN</item>
+    </string-array>
+
+    <string-array name="list1">
+        <item>Select Book Category</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>Magazine</item>
+        <item>Novel</item>
+        <item>Mathematics</item>
+        <item>GATE</item>
+        <item>Business</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="usertype">
+        <item>UG Student</item>
+        <item>PG Student</item>
+        <item>Phd Student</item>
+        <item>Faculty</item>
+    </string-array>
+
+
+</resources>

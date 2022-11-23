@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:elevation="@dimen/cardview_default_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@color/light_blue_50">
+
+        <TextView
+            android:id="@+id/bookName2"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:hint="Book Name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookAuthor2"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Book Author"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/bookStatus"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:hint="Book Status"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

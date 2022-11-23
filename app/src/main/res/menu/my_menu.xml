@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/my_books"
+            android:title="My Books" />
+        <item android:id="@+id/search_books"
+            android:title="Search Books" />
+        <item android:id="@+id/me"
+            android:title="About me" />
+        <item android:id="@+id/Log_Out"
+            android:title="Log Out" />
+</menu>
